@@ -30,6 +30,10 @@ $(function () {
 
            //$('.no-scroll').css('transform', 'translateY(' + scrollOff * 2.333 + 'px)');
         }
+        else {
+            $('.header-title').css('transform', 'translateY(0)');
+            $('.header-subtitle').css('transform', 'translateY(0)');
+        }
     })
     $(window).resize(function () {
         if ($(window).width() > 768) {
@@ -41,6 +45,10 @@ $(function () {
             $('.header-subtitle').css('transform', 'translateY(-' + scrollOff * 2.333 + 'px)');
             //$('#Header').css('transform', 'translateY(' + scrollOff * 2.333 + 'px)');
         }
+        else {
+            $('.header-title').css('transform', 'translateY(0)');
+            $('.header-subtitle').css('transform', 'translateY(0)');
+        }
     })
 
     $('.burger-icon').click(function () {
@@ -50,6 +58,56 @@ $(function () {
         }
         else {
             $('.mobile-navigation-menu').addClass('closed').removeClass('open');
+        }
+    })
+
+    $('.experience.resume-expander').click(function () {
+        var $this = $(this);
+        if ($this.hasClass('expand'))
+        {
+            $this.removeClass('expand').addClass('contract');
+            $this.empty();
+            $this.html('<span class="word">Less</span> -');
+            $('.experience.resume-box').slideDown();
+        }
+        else
+        {
+            $this.removeClass('contract').addClass('expand');
+            $this.empty();
+            $this.html('<span class="word">More</span> +');
+            $('.experience.resume-box').slideUp();
+        }
+    })
+
+    $('.education.resume-expander').click(function () {
+        var $this = $(this);
+        if ($this.hasClass('expand')) {
+            $this.removeClass('expand').addClass('contract');
+            $this.empty();
+            $this.html('<span class="word">Less</span> -');
+            $('.education.resume-box').slideDown();
+        }
+        else {
+            $this.removeClass('contract').addClass('expand');
+            $this.empty();
+            $this.html('<span class="word">More</span> +');
+            $('.education.resume-box').slideUp();
+        }
+    })
+
+    $('.skills.resume-expander').click(function () {
+        var $this = $(this);
+        if ($this.hasClass('expand')) {
+            $this.removeClass('expand').addClass('contract');
+            $this.empty();
+            $this.html('<span class="word">Less</span> -');
+            $('.skills.resume-box').slideDown();
+        }
+        else {
+            $this.removeClass('contract').addClass('expand');
+            $this.empty();
+            $this.html('<span class="word">More</span> +');
+            $('.skills.resume-box').slideUp();
         }
     })
 })
