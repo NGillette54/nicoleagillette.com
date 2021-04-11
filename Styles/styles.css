@@ -109,8 +109,7 @@ a.navigation-link:hover {
 .job-wrapper {
     max-width: 700px;
     margin: 0 auto;
-    padding-top: 26px;
-    padding-bottom: 55px;
+    padding: 25px 15px 55px 15px;
 }
 
 .job-title {
@@ -194,6 +193,8 @@ h3.experience-header {
 .education-wrapper {
     max-width: 500px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .school-label-wrapper {
@@ -203,7 +204,7 @@ h3.experience-header {
     margin-bottom: 11px;
 }
 
-span.school-header {
+.school-header {
     font-weight: bold;
     float: left;
     font-size: 18px;
@@ -285,4 +286,81 @@ footer {
 
 .footer-year {
     font-weight:bold;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-wrapper {
+        height: 275px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        min-height: 200px;
+    }
+
+    .main-heading {
+        padding-top: 92px;
+    }
+
+    .navigation-list {
+        font-size: 12px;
+        margin-right: 0;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .navigation-link {
+        padding: 5px 5px;
+    }
+
+    .right-column {
+        width: 100%;
+        float: unset;
+    }
+
+    .left-column {
+        width: 100%;
+        float: unset;
+    }
+
+    .facts-box {
+        padding: 24px;
+    }
+
+    .project-wrapper {
+        margin: unset;
+        margin-bottom: 15px;
+        height: unset;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-subtitle {
+        font-size: 13px;
+    }
+
+    .school-header {
+        float: unset;
+        font-size: 17px;
+        display: block;
+    }
+
+    .school-graduation {
+        float: unset;
+        display: block;
+    }
+
+    .skills-list {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    .contact-email {
+        display: block;
+        padding-top: 5px;
+    }
 }
