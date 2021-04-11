@@ -1,0 +1,288 @@
+﻿body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.heading-font {
+    font-family: 'Kiwi Maru', serif;
+}
+
+header {
+    background-image: url('../Images/header5.png');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navigation-list {
+    list-style-type: none;
+    margin-right: 10%;
+    float: right;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 3px 2px 3px 1px #482993;
+    position: fixed;
+    right: 0;
+}
+
+.navigation-item {
+    display: inline-block;
+    padding: 6px 0px;
+}
+.navigation-link {
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+a.navigation-link:hover {
+    background-color: #53358a;
+    color: #fff;
+    box-shadow: inset 0px 4px 6px 1px #423a66;
+}
+
+.main-heading {
+    margin: 0;
+    padding-top: 150px;
+    padding-left: 10%;
+    color: #fff;
+    text-shadow: 3px 3px 4px #12023a;
+
+}
+.main-subheading {
+    margin: 0;
+    padding-left: 10%;
+    color: #fff;
+    text-shadow: 3px 3px 4px #12023a;
+}
+
+.about-header {
+    text-align: center;
+    font-size: 23px;
+}
+
+.facts-wrapper {
+/*    background-color: #5a508a;*/
+    padding: 45px 15px;
+    box-shadow: inset 0px 4px 6px 1px #423a66;
+    background-image: url('../Images/header5a.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.facts-box {
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0px 2px 6px 1px #302b4b;
+    overflow: auto;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+}
+.right-column {
+    width: 50%;
+    float: right;
+}
+
+.fact {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.fact-icon {
+    width: 18px;
+}
+
+.fact-label {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.job-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 26px;
+    padding-bottom: 55px;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+}
+
+.job-date {
+    float: right;
+}
+
+.job-company {
+    clear: both;
+}
+
+h3.experience-header {
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 2px solid #531499;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 14px 25px 14px;
+}
+
+.job-projects {
+    background-image: url(../Images/header5b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+    padding: 30px;
+    padding-bottom: 50px;
+    box-shadow: inset 0px 4px 6px 1px #261359;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 2px solid #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 14px;
+    color: #fff;
+    margin-bottom:25px;
+    text-shadow: 3px 3px 4px #12023a;
+}
+
+.project-wrapper {
+    background-color: #fff;
+    margin: 23px;
+    padding: 15px;
+    height: 200px;
+    box-shadow: 0px 2px 6px 1px #302b4b;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    margin-bottom: 7px;
+}
+
+.project-subtitle {
+    font-size: 15px;
+}
+
+#Education {
+    border-bottom: 2px solid #531499;
+    padding-bottom: 79px;
+}
+
+.education-header {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.education-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.school-label-wrapper {
+    overflow: auto;
+    border-bottom: 1px solid #d6daed;
+    padding-bottom: 7px;
+    margin-bottom: 11px;
+}
+
+span.school-header {
+    font-weight: bold;
+    float: left;
+    font-size: 18px;
+}
+
+.school-graduation {
+    float: right;
+    margin-top: 3px;
+}
+
+.school-degree {
+    clear: both;
+}
+
+#Skills {
+    padding-top: 30px;
+}
+
+.skills-header {
+    font-size: 23px;
+    text-align: center;
+}
+
+.skills-wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.skills-list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    padding-top: 20px;
+}
+
+.contact-wrapper {
+    background-image: url(../Images/header5c.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-shadow: 3px 3px 4px #12023a;
+    color: #fff;
+    box-shadow: inset 0px 4px 6px 1px #180547;
+}
+
+.contact-header {
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-details {
+    text-align: center;
+    padding: 10px 15px;
+    padding-bottom: 50px;
+}
+
+span.contact-subtitle {
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.email-link {
+    color: #fff;
+}
+
+footer {
+    padding: 15px;
+    background-color: #0c0229;
+    color: #fff;
+}
+
+.footer-details {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.footer-year {
+    font-weight:bold;
+}
